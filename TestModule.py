@@ -23,7 +23,7 @@ def main():
         img = detector.findPose(img)
         lmList = detector.findPosition(img)
         if len(lmList) != 0:
-            print(lmList[14])
+            print(lmList[10])
 
         # calculate frame rate
         cTime = time.time()
